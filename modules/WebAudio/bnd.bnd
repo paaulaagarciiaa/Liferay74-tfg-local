@@ -1,0 +1,4 @@
+Bundle-Name: WebAudio
+Bundle-SymbolicName: com.TFG.WebAudio.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.TFG.WebAudio.portlet.constants
