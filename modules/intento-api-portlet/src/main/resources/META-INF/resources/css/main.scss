@@ -1,0 +1,45 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Usa una fuente limpia y moderna */
+    color: #000; /* Establece el color del texto a negro */
+    background-color: #f4f4f4; /* Un fondo claro para mejorar la legibilidad */
+}
+
+h2 {
+    color: #000; /* Asegura que los títulos también usen texto en negro */
+    text-transform: uppercase; /* Texto en mayúsculas para el botón */
+    font-family: Times New Roman; /* Usa una fuente limpia y moderna */
+    margin-bottom: 20px; /* Espacio después del título para separar de otros contenidos */
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #E0E2DF; /* Fondo blanco para el formulario */
+    padding: 15px; /* Padding interno para el formulario */
+    border-radius: 8px; /* Bordes redondeados para estética moderna */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Ajusta el ancho del input de texto, considerando el padding */
+    padding: 10px; /* Espacio interno para la entrada de texto */
+    margin-bottom: 10px; /* Margen inferior para separarlo del botón */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 4px; /* Bordes redondeados para el input */
+}
+
+input[type="submit"] {
+    background-color: #CDCED9; /* Color de fondo para el botón */
+    font-weight: bold;
+    color: gray; /* Texto blanco para el botón */
+    border-radius: 4px; /* Bordes redondeados para el input */
+    padding: 10px 20px; /* Padding para hacer el botón más grande y fácil de clickear */
+    text-transform: uppercase; /* Texto en mayúsculas para el botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cursor en forma de mano al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+input[type="submit"]:hover {
+    background-color: #E0E2DF; /* Cambio de color al pasar el mouse */
+}

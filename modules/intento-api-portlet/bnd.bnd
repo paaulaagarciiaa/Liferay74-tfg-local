@@ -1,0 +1,4 @@
+Bundle-Name: intento-api-portlet
+Bundle-SymbolicName: intento.api.portlet
+Bundle-Version: 1.0.0
+Export-Package: intento.api.portlet.constants
