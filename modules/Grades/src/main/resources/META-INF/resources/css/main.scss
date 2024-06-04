@@ -1,0 +1,58 @@
+// main.scss
+
+
+button {
+    background-color: #ff0000; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    border: none; /* Quita el borde */
+    padding: 15px 32px; /* Ajusta el relleno */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita la subrayado */
+    display: inline-block; /* Display inline-block */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    margin: 4px 2px; /* Ajusta los márgenes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #ff6666; /* Cambia el color de fondo al pasar el cursor */
+}
+
+// Sobrescribir los colores de las celdas de Handsontable
+.ht_master .htCore td {
+    background-color: #f0f8ff; // Color de fondo personalizado para las celdas
+    color: #333; // Color de texto personalizado para las celdas
+}
+
+// Cambiar el estilo de los encabezados de columna
+.ht_clone_top th {
+    background-color: #4682b4; // Color de fondo para los encabezados de columna
+    color: white; // Color de texto para los encabezados de columna
+    font-weight: bold; // Texto en negrita
+}
+
+// Ajustar el estilo de los bordes de las celdas
+.ht_master .htCore td,
+.ht_master .htCore th {
+    border: 1px solid #ccc; // Borde personalizado para las celdas y encabezados
+}
+
+// Personalizar la fila de selección actual
+.ht_master .htCore tr.currentRow td {
+    background-color: #f0f8ff; // Color de fondo para la fila seleccionada
+}
+
+// Personalizar la columna de selección actual
+.ht_master .htCore td.currentCol {
+    background-color: #f0f8ff; // Color de fondo para la columna seleccionada
+}
+
+// Personalizar el estilo de la tabla de Handsontable
+.handsontable .ht_master {
+    border-radius: 8px; // Bordes redondeados para la tabla
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Sombra alrededor de la tabla
+    overflow: hidden; // Ocultar el desbordamiento
+}
+
+
