@@ -1,0 +1,4 @@
+Bundle-Name: api.videoconferencia.portlet
+Bundle-SymbolicName: api.videoconferencia.portlet
+Bundle-Version: 1.0.0
+Export-Package: api.videoconferencia.portlet.constants
